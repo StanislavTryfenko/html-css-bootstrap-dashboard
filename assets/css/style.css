@@ -27,6 +27,7 @@ body{
 
 header{
     background-color: var(--drop-dark);
+    height: 3.5rem;
 }
 
 aside{
@@ -34,8 +35,17 @@ aside{
     background-image: url(../img/sidebar-bg.png);
     background-color: var(--drop-bg-aside);
     &> .container{
-        height: calc(100vh - 58px);
+        height: calc(100vh - 3.5rem);
     }
+}
+
+.jumbotron{
+    height: 8rem;
+    width: 100%;
+    background-color: var(--drop-bg-banner);
+}
+.content{
+    width: 100%;
 }
 
 /* #endregion */
