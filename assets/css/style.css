@@ -1,3 +1,35 @@
 .debug *{
     border: 1px dotted black;
 }
+
+:root{
+    --drop-white: #ffffff;
+    --drop-lighter: #f8f9fa;
+    --drop-light: #f7f7f7;
+    --drop-dark: #e5e5e5;
+    --drop-darker: #8d949a;
+    --drop-black: #00000;
+    --drop-bg-aside: #071f36;
+    --drop-bg-banner: #1b72e8;
+    --drop-success: #198754;
+    --drop-alert: #ffc107;
+    --drop-dark-alert: #ff9105;
+    --drop-warning: #dc3545;
+}
+
+body{
+    
+}
+
+header{
+    background-color: var(--drop-dark);
+}
+
+.nav_bg{
+    background-color: var(--drop-white);
+}
+
+.searchbar_bg{
+    background-color: var(--drop-darker);
+}
+
