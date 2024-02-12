@@ -17,13 +17,30 @@
     --drop-warning: #dc3545;
 }
 
+/* #region common */
+
+*
+
 body{
-    
+   height: 100vh; 
 }
 
 header{
     background-color: var(--drop-dark);
 }
+
+aside{
+    width: 10rem;
+    background-image: url(../img/sidebar-bg.png);
+    background-color: var(--drop-bg-aside);
+    &> .container{
+        height: calc(100vh - 58px);
+    }
+}
+
+/* #endregion */
+
+/* #region color */
 
 .nav_bg{
     background-color: var(--drop-white);
@@ -33,3 +50,4 @@ header{
     background-color: var(--drop-darker);
 }
 
+/* #endregion */
