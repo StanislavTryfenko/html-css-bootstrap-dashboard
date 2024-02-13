@@ -19,7 +19,9 @@
 
 /* #region common */
 
-*
+.test{
+ width: 1rem;
+}
 
 body{
    height: 100vh; 
@@ -28,14 +30,24 @@ body{
 header{
     background-color: var(--drop-dark);
     height: 3.5rem;
+    & .logo_mobile{
+        width: 2.5rem;
+    }
 }
 
 aside{
-    width: 10rem;
+    width: 12rem;
     background-image: url(../img/sidebar-bg.png);
     background-color: var(--drop-bg-aside);
     &> .container{
         height: calc(100vh - 3.5rem);
+    }
+    
+    @media screen and (max-width:991.98px) {
+        width: 10rem;
+    }
+    @media screen and (max-width:575.98px) {
+        width: 5rem;
     }
 }
 

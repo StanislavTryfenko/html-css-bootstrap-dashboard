@@ -16,35 +16,43 @@
 
             <div class="container-fluid nav_bg">
 
-                <a class="navbar-brand" href="#">
-                    <img src="./assets/img/logo.svg" alt="">
-                </a>
+                <div>
+
+                    <a class="navbar-brand d-none d-lg-block" href="#">
+                        <img src="./assets/img/logo.svg" alt="">
+                    </a>
+
+                    <a class="navbar-brand d-lg-none" href="#">
+                        <img class="logo_mobile" src="./assets/img/mobile-logo.png" alt="">
+                    </a>
+
+                </div>
               
-                <form class="w-75">
+                <form class="flex-grow-1 mx-3">
                     <div class="input-group">
                         <span class="input-group-text searchbar_bg" id="basic-addon1"><i class="fa-solid fa-magnifying-glass"></i></span>
                         <input type="text" class="form-control searchbar_bg" placeholder="Prova a cercare: Lezioni di Lavarel">
                     </div>
                 </form>
 
-                <ul class="d-flex list-unstyled gap-3 align-self-center m-0">
+                <ul class="list-unstyled gap-3 m-0 d-lg-flex">
                     <li>
-                        <a href="">
+                        <a href="" class="d-none d-lg-block">
                             <i class="fa-solid fa-list-ul"></i>
                         </a>
                     </li>
                     <li>
-                        <a href="">
+                        <a href="" class="d-none d-lg-block">
                             <i class="fa-solid fa-circle-question"></i>
                         </a>
                     </li>
                     <li>
-                        <a href="">
+                        <a href="" class="d-none d-lg-block">
                             <i class="fa-solid fa-ellipsis-vertical"></i>
                         </a>
                     </li>
                     <li>
-                        <a href="">
+                        <a href="" class="">
                             <i class="fa-solid fa-bell"></i>
                         </a>
                     </li>
@@ -62,31 +70,31 @@
           
             <div class="container d-flex flex-column justify-content-between ">
 
-                <ul class="list-unstyled mx-auto">
+                <ul class="list-unstyled mx-auto d-flex flex-column gap-3 gap-lg-0 py-3">
                     <li>
                         <a href="" class="d-flex gap-2 align-items-center text-white text-decoration-none my-3">
-                            <i class="fa-solid fa-house"></i>
-                            <h5 class="m-0">Home</h5>
+                            <i class="fa-solid fa-house fa-lg"></i>
+                            <h5 class="m-0 d-none d-lg-block">Home</h5>
                         </a>
                     </li>
                     <li>
                         <a href="" class="d-flex gap-2 align-items-center text-white text-decoration-none  my-3">
-                            <i class="fa-solid fa-chart-simple"></i>
-                            <h5 class="m-0 ms-1">Stats</h5>
+                            <i class="fa-solid fa-chart-simple fa-lg"></i>
+                            <h5 class="m-0 ms-1 d-none d-lg-block">Stats</h5>
                         </a>
                     </li>
                     <li>
                         <a href="" class="d-flex gap-2 align-items-center text-white text-decoration-none  my-3">
-                            <i class="fa-solid fa-signal"></i>
-                            <h5 class="m-0">Signals</h5>
+                            <i class="fa-solid fa-signal fa-lg"></i>
+                            <h5 class="m-0 d-none d-lg-block">Signals</h5>
                         </a>
                     </li>
                 </ul>
-                <ul class="list-unstyled mx-auto">
+                <ul class="list-unstyled mx-auto py-3">
                     <li>
                         <a href="" class="d-flex gap-2 align-items-center text-white text-decoration-none  my-3">
-                            <i class="fa-solid fa-gear"></i>
-                            <h5 class="m-0">Admin</h5>
+                            <i class="fa-solid fa-gear fa-lg"></i>
+                            <h5 class="m-0 d-none d-lg-block">Admin</h5>
                         </a>
                     </li>
                 </ul>
@@ -94,10 +102,10 @@
     
         </aside>
 
-        <div class="container p-0">
+        <div class="container-fluid p-0">
 
             <section class="jumbotron">
-                <div class="container-fluid">
+                <div class="container">
                     <div class="row">
                         <div class="col">qualcosa</div>
                         <div class="col">qualcos'altro</div>
@@ -107,8 +115,8 @@
             </section>
 
             <section class="content">
-                <div class="container">
-                    <div class="row">
+                <div class="container-fluid">
+                    <div class="row row-cols-1 row-cols-lg-2">
                         <div class="col">
                             <div class="card">
                                 <div class="card-header">Prossime classi</div>
