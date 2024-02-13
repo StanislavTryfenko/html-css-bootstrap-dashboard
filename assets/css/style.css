@@ -69,6 +69,17 @@ table{
     }
 }
 
+.offcanvas{
+    --bs-offcanvas-width: 700px;
+
+    @media screen and (max-width:991.98px) {
+        --bs-offcanvas-width: 100%;
+        }
+/*     @media screen and (max-width:575.98px) {
+        --bs-offcanvas-width: 100%;
+        } */
+}
+
 /* #endregion */
 
 /* #region color */

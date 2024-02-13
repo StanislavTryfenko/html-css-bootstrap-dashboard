@@ -116,33 +116,105 @@
                                 <h3>Boolean</h3>
                                 <span class="badge bg-secondary">Piano blaze</span>
                             </div>
-                            <div>
-                                <span class="badge bg-secondary">3 app</span>
-                                <i class="fa-solid fa-angles-right fa-xs"></i>
-                                <span class="badge bg-secondary">Boolean mobile app</span>
-                                <span class="badge bg-secondary">Boolean web app</span>
-                                <span class="badge bg-secondary">Boolean blog app</span>
+                            <div class=" d-flex align-items-center">
+
+                                <ul class="list-unstyled d-flex">
+                                <li><span class="badge bg-secondary">3 app</span></li>
+                                <li><i class="fa-solid fa-angles-right fa-xs"></i></li>
+                                </ul>
+                                
+
+
+                                <ul class="list-unstyled d-flex">
+                                    <li><span class="badge bg-secondary d-none d-lg-block">Boolean mobile app</span></li>
+                                    <li><span class="badge bg-secondary d-none d-lg-block">Boolean web app</span></li>
+                                    <li><span class="badge bg-secondary d-none d-lg-block">Boolean blog app</span></li>
+                                    <li><span class="badge bg-secondary d-block d-lg-none"><i class="fa-solid fa-plus"></i></span></li>
+                                </ul>
+
+
                             </div>
                         </div>
                         <div class="py-4 col">
-                            Studenti online negli ultimo 30 minuti
+                            <span>Studenti online negli ultimo 30 minuti</span>
                             <span class="fs-2">125</span>
                         </div>
                         <div class="py-4 col">
                             Nuovo Studente
                             <a class="btn btn-primary" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
                                 <i class="fa-solid fa-plus"></i>
-                              </a>
+                            </a>
                             <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
                                 <div class="offcanvas-header">
-                                  <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
-                                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                    <h5 class="offcanvas-title" id="offcanvasExampleLabel">Inserisci un nuovo studente</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                                 </div>
                                 <div class="offcanvas-body">
-                                  something
-                                  </div>
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <label for="formGroupExampleInput" class="form-label">Nome</label>
+                                                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="">
+                                            </div>
+                                            <div class="col-6">
+                                                <label for="formGroupExampleInput" class="form-label">Cognome</label>
+                                                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="">
+                                            </div>
+                                            <div class="col-6">
+                                                <label for="formGroupExampleInput" class="form-label">Email</label>
+                                                <div class="input-group mb-3">
+                                                    <span class="input-group-text" id="basic-addon1">@</span>
+                                                    <input type="text" class="form-control" placeholder="" aria-label="Username" aria-describedby="basic-addon1">
+                                                </div>    
+                                            </div>
+                                            <div class="col-6">
+                                                <label for="formGroupExampleInput" class="form-label">Password</label>
+                                                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="">
+                                            </div>
+                                            <div class="col-12">
+                                                <label for="formGroupExampleInput" class="form-label">Indirizzo</label>
+                                                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="">
+                                            </div>
+                                            <div class="col-6">
+                                                <label for="formGroupExampleInput" class="form-label">Città</label>
+                                                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="">
+                                            </div>
+                                            <div class="col-4">
+                                                <label for="formGroupExampleInput" class="form-label">Stato</label>
+                                                <div class="input-group mb-3">
+                                                    <select class="form-select" id="inputGroupSelect01">
+                                                    <option selected="">Scegli...</option>
+                                                    <option value="1">Ucraina</option>
+                                                    <option value="2">Italia</option>
+                                                    <option value="3">Ao io ho fatto l'alberghiero... 2 stati conosco</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="col-2">
+                                                <label for="formGroupExampleInput" class="form-label">CAP</label>
+                                                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="">
+                                            </div>
+                                            <div class="col-12">
+                                                <label for="formGroupExampleInput" class="form-label">Foto</label>
+                                                <div class="input-group mb-3">
+                                                    <span class="input-group-text" id="basic-addon1">Scegli file</span>
+                                                    <input type="text" class="form-control" placeholder="Nessun file selezionato" aria-label="Username" aria-describedby="basic-addon1">
+                                                </div>    
+                                            </div>
+                                            <div class="col-12">
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                    <label class="form-check-label" for="flexCheckDefault">Seleziona per proseguire</label>
+                                                  </div>
+                                            </div>
+                                            <div class="col-12">
+                                                <button type="button" class="btn btn-primary">Salva</button>
+                                                <button type="button" class="btn btn-warning">Svuota</button>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
-                              </div>
+                            </div>
                         </div>
                     </div>
                 </div>
