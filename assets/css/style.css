@@ -59,7 +59,6 @@ header{
 .content{
     width: 100%; 
     height: calc(100vh - 11.5rem);
-    overflow-y: scroll;
 }
 
 table{
