@@ -23,10 +23,11 @@
 
 body{
    height: 100vh; 
+   overflow-y: hidden;
 }
 
 header{
-    background-color: var(--drop-dark);
+    background-color: var(--drop-light);
     height: 3.5rem;
     & .logo_mobile{
         width: 2.5rem;
@@ -36,20 +37,19 @@ header{
     }
 }
 
-aside{
-    width: 12rem;
+.sidebar{
+    width: 144px;
     height: calc(100vh - 3.5rem);
     background-image: url(../img/sidebar-bg.png);
     background-color: var(--drop-bg-aside);
-    
-    
-    @media screen and (max-width:991.98px) {
-        width: 9rem;
+    @media screen and (min-width:768px) {
+        max-width: 288px;
     }
-    @media screen and (max-width:575.98px) {
-        width: 5rem;
+    @media screen and (min-width:1200px) {
+        max-width: 388px;
     }
-}
+
+} 
 
 .jumbotron{
     min-height: 8rem;
@@ -89,7 +89,7 @@ table{
 }
 
 .searchbar_bg{
-    background-color: var(--drop-darker);
+    background-color: var(--drop-dark);
 }
 
 /* #endregion */
